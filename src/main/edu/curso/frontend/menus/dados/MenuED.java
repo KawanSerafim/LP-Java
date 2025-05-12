@@ -1,4 +1,4 @@
-package main.edu.curso.menus.dados;
+package main.edu.curso.frontend.menus.dados;
 
 import java.util.Scanner;
 

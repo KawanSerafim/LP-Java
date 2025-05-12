@@ -1,8 +1,8 @@
-package main.edu.curso.visoes.sequencial;
+package main.edu.curso.frontend.visoes.sequencial;
 
 import java.util.Scanner;
 
-import main.edu.curso.estruturas.logicas.sequencial.Exercicio01;
+import main.edu.curso.backend.estruturas.logicas.sequencial.Exercicio01;
 
 public class VisaoExercicio01 {
     public void visao(Scanner scanner) {

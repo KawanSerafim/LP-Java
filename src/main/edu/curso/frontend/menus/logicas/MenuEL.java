@@ -1,19 +1,17 @@
-package main.edu.curso.menus.logicas;
+package main.edu.curso.frontend.menus.logicas;
 
 import java.util.Scanner;
 
-import main.edu.curso.visoes.sequencial.VisaoExercicio01;
-import main.edu.curso.visoes.sequencial.VisaoExercicio02;
-
-public class MenuSequencial {
+public class MenuEL {
     public void menu(Scanner scanner) {
         int opcao = 0;
 
         do {
             System.out.print(
-            "\n\n[SEQUENCIAL]\n\n" +
-            "1: Exercício 01.\n" +
-            "2: Exercício 02.\n" +
+            "\n\n[ESTRUTURAS LÓGICAS]\n\n" +
+            "1: Sequencial.\n" +
+            "2: Condicional.\n" +
+            "3: Repetição.\n" +
             "0: Sair.\n\n" +
             "R: "
             );
@@ -21,12 +19,14 @@ public class MenuSequencial {
 
             switch(opcao) {
                 case 1:
-                    VisaoExercicio01 vEx01 = new VisaoExercicio01();
-                    vEx01.visao(scanner);
+                    MenuSequencial menuSequencial = new MenuSequencial();
+                    menuSequencial.menu(scanner);
                     break;
                 case 2:
-                    VisaoExercicio02 vEx02 = new VisaoExercicio02();
-                    vEx02.visao(scanner);
+
+                    break;
+                case 3:
+
                     break;
                 case 0:
                     System.out.println("\nSaindo. . .");

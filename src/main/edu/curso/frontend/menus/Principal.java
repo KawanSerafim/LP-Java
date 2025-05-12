@@ -1,9 +1,9 @@
-package main.edu.curso.menus;
+package main.edu.curso.frontend.menus;
 
 import java.util.Scanner;
 
-import main.edu.curso.menus.dados.MenuED;
-import main.edu.curso.menus.logicas.MenuEL;
+import main.edu.curso.frontend.menus.dados.MenuED;
+import main.edu.curso.frontend.menus.logicas.MenuEL;
 
 public class Principal {
     public static void menu() {

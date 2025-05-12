@@ -37,9 +37,9 @@
 
 | Descrição | Caminho |
 | -------- | ----------- |
-| [📝] Sequencial | [Caminho](https://github.com/KawanSerafim/LP-Java/tree/main/src/main/edu/curso/estruturas/logicas/sequencial) |
-| [📝] Condicional | [Caminho](https://github.com/KawanSerafim/LP-Java/tree/main/src/main/edu/curso/estruturas/logicas/sequencial) |
-| [📝] Repetição | [Caminho](https://github.com/KawanSerafim/LP-Java/tree/main/src/main/edu/curso/estruturas/logicas/repeticao) |
+| [📝] Sequencial | [Caminho](https://github.com/KawanSerafim/LP-Java/tree/main/src/main/edu/curso/backend/estruturas/logicas/sequencial) |
+| [📝] Condicional | [Caminho](https://github.com/KawanSerafim/LP-Java/tree/main/src/main/edu/curso/backend/estruturas/logicas/sequencial) |
+| [📝] Repetição | [Caminho](https://github.com/KawanSerafim/LP-Java/tree/main/src/main/edu/curso/backend/estruturas/logicas/repeticao) |
 
 ---
 

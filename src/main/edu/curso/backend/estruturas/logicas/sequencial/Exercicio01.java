@@ -1,4 +1,4 @@
-package main.edu.curso.estruturas.logicas.sequencial;
+package main.edu.curso.backend.estruturas.logicas.sequencial;
 
 public class Exercicio01 {
     public float resolucao(float lado) {
