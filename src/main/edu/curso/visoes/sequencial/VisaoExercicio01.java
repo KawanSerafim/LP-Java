@@ -1,4 +1,4 @@
-package main.edu.curso.menus.logicas.sequencial;
+package main.edu.curso.visoes.sequencial;
 
 import java.util.Scanner;
 

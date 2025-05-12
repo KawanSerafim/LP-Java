@@ -2,8 +2,8 @@ package main.edu.curso.menus.logicas;
 
 import java.util.Scanner;
 
-import main.edu.curso.menus.logicas.sequencial.VisaoExercicio01;
-import main.edu.curso.menus.logicas.sequencial.VisaoExercicio02;
+import main.edu.curso.visoes.sequencial.VisaoExercicio01;
+import main.edu.curso.visoes.sequencial.VisaoExercicio02;
 
 public class MenuSequencial {
     public void menu(Scanner scanner) {
