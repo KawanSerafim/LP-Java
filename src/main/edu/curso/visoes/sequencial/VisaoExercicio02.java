@@ -1,7 +1,8 @@
-package main.edu.curso.menu.logicas.sequencial;
+package main.edu.curso.menus.logicas.sequencial;
 
 import java.util.Scanner;
-import main.edu.curso.estruturas_logicas.sequencial.Exercicio02;
+
+import main.edu.curso.estruturas.logicas.sequencial.Exercicio02;
 
 public class VisaoExercicio02 {
     public void visao(Scanner scanner) {

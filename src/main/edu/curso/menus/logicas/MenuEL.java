@@ -1,4 +1,4 @@
-package main.edu.curso.menu.logicas;
+package main.edu.curso.menus.logicas;
 
 import java.util.Scanner;
 
