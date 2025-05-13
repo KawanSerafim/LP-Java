@@ -19,6 +19,7 @@
 | [📚] Receba o salário de um funcionário e mostre o novo salário com reajuste de 15%. | [☕] [Exercicio02.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/backend/estruturas/logicas/sequencial/Exercicio02.java) |
 | [📚] Receba a base e a altura de um triângulo. Calcule e mostre a sua área. | [☕] [Exercicio03.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/backend/estruturas/logicas/sequencial/Exercicio03.java) |
 | [📚] Receba a temperatura em graus Celsius. Calcule e mostre a sua temperatura convertida em fahrenheit F = (9*C+160)/5. | [☕] [Exercicio04.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/backend/estruturas/logicas/sequencial/Exercicio04.java) |
+| [📚] Receba os coeficientes A, B e C de uma equação do 2º grau (AX²+BX+C=0). Calcule e mostre as raízes reais (considerar que a equação possue2 raízes). | [☕] [Exercicio05.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/backend/estruturas/logicas/sequencial/Exercicio05.java) |
 
 ---
 
