@@ -15,9 +15,7 @@ public class VisaoExercicio06 {
         );
         float valorX = scanner.nextFloat();
 
-        System.out.print(
-            "\nDigite aqui o valor Y: "
-        );
+        System.out.print("\nDigite aqui o valor Y: ");
         float valorY = scanner.nextFloat();
 
         System.out.println("\nRetorno: [ " + exercicio06.resolucao(valorX, valorY) + " ]");
