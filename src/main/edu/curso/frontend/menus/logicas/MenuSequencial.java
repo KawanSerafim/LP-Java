@@ -1,10 +1,10 @@
 package main.edu.curso.frontend.menus.logicas;
 
 import java.util.Scanner;
-
 import main.edu.curso.frontend.visoes.sequencial.VisaoExercicio01;
 import main.edu.curso.frontend.visoes.sequencial.VisaoExercicio02;
 import main.edu.curso.frontend.visoes.sequencial.VisaoExercicio03;
+import main.edu.curso.frontend.visoes.sequencial.VisaoExercicio04;
 
 public class MenuSequencial {
     public void menu(Scanner scanner) {
@@ -16,6 +16,7 @@ public class MenuSequencial {
             "1: Exercício 01.\n" +
             "2: Exercício 02.\n" +
             "3: Exercício 03.\n" +
+            "4: Exercício 04.\n" +
             "0: Sair.\n\n" +
             "R: "
             );
@@ -34,6 +35,9 @@ public class MenuSequencial {
                     VisaoExercicio03 vEx03 = new VisaoExercicio03();
                     vEx03.visao(scanner);
                     break;
+                case 4:
+                    VisaoExercicio04 vEx04 = new VisaoExercicio04();
+                    vEx04.visao(scanner);
                 case 0:
                     System.out.println("\nSaindo. . .");
                     break;
