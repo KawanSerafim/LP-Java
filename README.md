@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-    <img width="100%" alt="gif" src="https://preview.redd.it/dsuidip45i861.png?width=1080&crop=smart&auto=webp&s=ba3592b18f9248a8e33ab12883fbd6b136616074"/>
+    <img width="100%" alt="img" src="https://preview.redd.it/dsuidip45i861.png?width=1080&crop=smart&auto=webp&s=ba3592b18f9248a8e33ab12883fbd6b136616074"/>
 </div>
 
 ---
@@ -37,9 +37,9 @@
 
 | Descrição | Caminho |
 | -------- | ----------- |
-| [📝] Sequencial | [Caminho](https://github.com/KawanSerafim/LP-Java/tree/main/src/main/edu/curso/backend/estruturas/logicas/sequencial) |
-| [📝] Condicional | [Caminho](https://github.com/KawanSerafim/LP-Java/tree/main/src/main/edu/curso/backend/estruturas/logicas/sequencial) |
-| [📝] Repetição | [Caminho](https://github.com/KawanSerafim/LP-Java/tree/main/src/main/edu/curso/backend/estruturas/logicas/repeticao) |
+| [📑] Sequencial | [🔗] [[./logicas/sequencial]](https://github.com/KawanSerafim/LP-Java/tree/main/src/main/edu/curso/backend/estruturas/logicas/sequencial) |
+| [📑] Condicional | [🔗] [[./logicas/condicional]](https://github.com/KawanSerafim/LP-Java/tree/main/src/main/edu/curso/backend/estruturas/logicas/condicional) |
+| [📑] Repetição | [🔗] [[./logicas/repeticao]](https://github.com/KawanSerafim/LP-Java/tree/main/src/main/edu/curso/backend/estruturas/logicas/repeticao) |
 
 ---
 
