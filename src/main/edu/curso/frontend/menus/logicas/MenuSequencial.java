@@ -7,6 +7,7 @@ import main.edu.curso.frontend.visoes.sequencial.VisaoExercicio03;
 import main.edu.curso.frontend.visoes.sequencial.VisaoExercicio04;
 import main.edu.curso.frontend.visoes.sequencial.VisaoExercicio05;
 import main.edu.curso.frontend.visoes.sequencial.VisaoExercicio06;
+import main.edu.curso.frontend.visoes.sequencial.VisaoExercicio07;
 
 public class MenuSequencial {
     public void menu(Scanner scanner) {
@@ -21,6 +22,7 @@ public class MenuSequencial {
             "4: Exercício 04.\n" +
             "5: Exercício 05.\n" +
             "6: Exercício 06.\n" +
+            "7: Exercício 07.\n" +
             "0: Sair.\n\n" +
             "R: "
             );
@@ -50,6 +52,9 @@ public class MenuSequencial {
                     VisaoExercicio06 vEx06 = new VisaoExercicio06();
                     vEx06.visao(scanner);
                     break;
+                case 7:
+                    VisaoExercicio07 vEx07 = new VisaoExercicio07();
+                    vEx07.visao(scanner);
                 case 0:
                     System.out.println("\nSaindo. . .");
                     break;
