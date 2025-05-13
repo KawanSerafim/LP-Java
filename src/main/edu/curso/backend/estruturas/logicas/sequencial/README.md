@@ -20,6 +20,7 @@
 | [📚] Receba a base e a altura de um triângulo. Calcule e mostre a sua área. | [☕] [Exercicio03.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/backend/estruturas/logicas/sequencial/Exercicio03.java) |
 | [📚] Receba a temperatura em graus Celsius. Calcule e mostre a sua temperatura convertida em fahrenheit F = (9*C+160)/5. | [☕] [Exercicio04.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/backend/estruturas/logicas/sequencial/Exercicio04.java) |
 | [📚] Receba os coeficientes A, B e C de uma equação do 2º grau (AX²+BX+C=0). Calcule e mostre as raízes reais (considerar que a equação possue2 raízes). | [☕] [Exercicio05.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/backend/estruturas/logicas/sequencial/Exercicio05.java) |
+| [📚] Receba os valores em x e y. Efetua a troca de seus valores e mostre seus conteúdos | [☕] [Exercicio06.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/backend/estruturas/logicas/sequencial/Exercicio06.java) |
 
 ---
 
