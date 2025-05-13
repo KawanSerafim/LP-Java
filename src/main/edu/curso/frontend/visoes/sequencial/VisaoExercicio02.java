@@ -10,7 +10,7 @@ public class VisaoExercicio02 {
 
         System.out.print(
             "\n\n[CONTEXTO]\n\n" +
-            "- Receba o salário de um funcionário e mostre o novo salário com reajuste de 15%." +
+            "- Receba o salário de um funcionário e mostre o novo salário com reajuste de 15%.\n\n" +
 
             "Digite aqui o salário: "
         );

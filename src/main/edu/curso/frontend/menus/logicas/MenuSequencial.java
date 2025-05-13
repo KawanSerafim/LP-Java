@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 import main.edu.curso.frontend.visoes.sequencial.VisaoExercicio01;
 import main.edu.curso.frontend.visoes.sequencial.VisaoExercicio02;
+import main.edu.curso.frontend.visoes.sequencial.VisaoExercicio03;
 
 public class MenuSequencial {
     public void menu(Scanner scanner) {
@@ -14,6 +15,7 @@ public class MenuSequencial {
             "\n\n[SEQUENCIAL]\n\n" +
             "1: Exercício 01.\n" +
             "2: Exercício 02.\n" +
+            "3: Exercício 03.\n" +
             "0: Sair.\n\n" +
             "R: "
             );
@@ -27,6 +29,10 @@ public class MenuSequencial {
                 case 2:
                     VisaoExercicio02 vEx02 = new VisaoExercicio02();
                     vEx02.visao(scanner);
+                    break;
+                case 3:
+                    VisaoExercicio03 vEx03 = new VisaoExercicio03();
+                    vEx03.visao(scanner);
                     break;
                 case 0:
                     System.out.println("\nSaindo. . .");
