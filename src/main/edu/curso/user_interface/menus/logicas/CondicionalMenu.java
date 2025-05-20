@@ -46,7 +46,6 @@ public class CondicionalMenu implements MenuInterface{
 
             showMenu();
         }
-
     }
 
     @Override

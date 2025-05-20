@@ -161,7 +161,6 @@ public class SequencialMenu implements MenuInterface {
 
             showMenu();
         }
-
     }
 
     @Override
