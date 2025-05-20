@@ -21,12 +21,12 @@ import main.edu.curso.user_interface.view.sequencial.VisaoExercicio16;
 import main.edu.curso.user_interface.view.sequencial.VisaoExercicio17;
 import java.util.Scanner;
 
-public class MenuSequencial implements MenuInterface {
+public class SequencialMenu implements MenuInterface {
     
     @Override
     public void showMenu() {
 
-        String[] opcoes = {
+        String[] options = {
             "Exercício 01.",
             "Exercicio 02.",
             "Exercício 03.",
@@ -46,20 +46,20 @@ public class MenuSequencial implements MenuInterface {
             "Exercício 17.",
         };
 
-        BuildMenu buildMenu = new BuildMenu("ESTRUTURA SEQUENCIAL", opcoes);
+        BuildMenu buildMenu = new BuildMenu("ESTRUTURA SEQUENCIAL", options);
         System.out.print(buildMenu.displayMenu());
     }
 
     @Override
     public void choiceMenu(Scanner scanner) {
 
-        int opcao;
+        int option;
 
         while(true) {
 
-            opcao = scanner.nextInt();
+            option = scanner.nextInt();
 
-            switch(opcao) {
+            switch(option) {
             
                 case 1:
 
@@ -155,7 +155,7 @@ public class MenuSequencial implements MenuInterface {
                     System.out.print("\n\nErro de input não reconhecido. tenha certeza que está digitando as opções fornecidas.");
             }
 
-            if(opcao == 0) {
+            if(option == 0) {
                 break;
             }
 

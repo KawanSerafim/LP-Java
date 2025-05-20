@@ -9,30 +9,30 @@ public class ELMenu implements MenuInterface{
     @Override
     public void showMenu() {
 
-        String[] opcoes = {
+        String[] options = {
             "Estrutura Sequencial.",
             "Estrutura Condicional.",
             "Estrutura de Repetição."
         };
 
-        BuildMenu buildMenu = new BuildMenu("ESTRUTURAS LÓGICAS", opcoes);
+        BuildMenu buildMenu = new BuildMenu("ESTRUTURAS LÓGICAS", options);
         System.out.print(buildMenu.displayMenu());        
     }
 
     @Override
     public void choiceMenu(Scanner scanner) {
         
-        int opcao;
+        int option;
 
         while(true) {
 
-            opcao = scanner.nextInt();
+            option = scanner.nextInt();
 
-            switch(opcao) {
+            switch(option) {
 
                 case 1:
 
-                    MenuSequencial menuSequencial = new MenuSequencial();
+                    SequencialMenu menuSequencial = new SequencialMenu();
                     menuSequencial.menu(scanner);
                     break;
                 case 2:
@@ -52,7 +52,7 @@ public class ELMenu implements MenuInterface{
                     System.out.print("\n\nErro de input não reconhecido. tenha certeza que está digitando as opções fornecidas.");
             }
 
-            if(opcao == 0) {
+            if(option == 0) {
                 break;
             }
             

@@ -8,6 +8,9 @@ public class CondicionalMenu implements MenuInterface{
     @Override
     public void showMenu() {
         
+        String[] options = {
+
+        };
     }
 
     @Override
@@ -17,6 +20,7 @@ public class CondicionalMenu implements MenuInterface{
 
     @Override
     public void menu(Scanner scanner) {
-        
+        showMenu();
+        choiceMenu(scanner);
     }
 }

@@ -9,24 +9,24 @@ public class MainMenu implements MenuInterface {
     @Override
     public void showMenu() {
 
-        String[] opcoes = {
+        String[] options = {
             "Estruturas Lógicas.", 
             "Estruturas de Dados."
         };
 
-        BuildMenu buildMenu = new BuildMenu("LÓGICA DE PROGRAMAÇÃO", opcoes);
+        BuildMenu buildMenu = new BuildMenu("LÓGICA DE PROGRAMAÇÃO", options);
         System.out.print(buildMenu.displayMenu());
     }
 
     public void choiceMenu(Scanner scanner) {
 
-        int opcao;
+        int option;
 
         while(true) {
 
-            opcao = scanner.nextInt();
+            option = scanner.nextInt();
 
-            switch(opcao) {
+            switch(option) {
 
                 case 1:
 
@@ -47,7 +47,7 @@ public class MainMenu implements MenuInterface {
                     System.out.print("\n\nErro de input não reconhecido. Tenha certeza que está digitando as opções fornecidas.");
             }
 
-            if(opcao == 0) {
+            if(option == 0) {
                 break;
             }
 
