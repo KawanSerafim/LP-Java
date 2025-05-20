@@ -6,6 +6,7 @@ public class BuildMenu {
     private String[] opcoes;
 
     public BuildMenu(String titulo, String[] opcoes) {
+
         this.titulo = titulo;
         this.opcoes = opcoes;
     }
@@ -13,7 +14,6 @@ public class BuildMenu {
     private String buildMenu() {
 
         StringBuilder builder = new StringBuilder();
-
         builder.append("\n\n[" + titulo + "]\n\n");
 
         for(int i = 0; i < opcoes.length; i++) {
@@ -26,10 +26,10 @@ public class BuildMenu {
         );
 
         return builder.toString();
-
     }
 
     public String displayMenu() {
+        
         return buildMenu().toString();
     }
 }
