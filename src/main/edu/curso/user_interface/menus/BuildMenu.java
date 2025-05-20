@@ -14,6 +14,7 @@ public class BuildMenu {
     private String buildMenu() {
 
         StringBuilder builder = new StringBuilder();
+        builder.append("\n\n-------------------");
         builder.append("\n\n[" + title + "]\n\n");
 
         for(int i = 0; i < options.length; i++) {

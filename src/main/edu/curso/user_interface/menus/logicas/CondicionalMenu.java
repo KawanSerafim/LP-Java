@@ -1,6 +1,7 @@
 package main.edu.curso.user_interface.menus.logicas;
 
 import main.edu.curso.user_interface.menus.MenuInterface;
+import main.edu.curso.user_interface.menus.BuildMenu;
 import java.util.Scanner;
 
 public class CondicionalMenu implements MenuInterface{
@@ -9,17 +10,48 @@ public class CondicionalMenu implements MenuInterface{
     public void showMenu() {
         
         String[] options = {
-
+            "Exercício 18.",
         };
+
+        BuildMenu buildMenu = new BuildMenu("MENU CONDICIONAL", options);
+        System.out.print(buildMenu.displayMenu());
     }
 
     @Override
     public void choiceMenu(Scanner scanner) {
         
+        int option;
+
+        while(true) {
+
+            option = scanner.nextInt();
+
+            switch(option) {
+
+                case 1:
+
+                    break;
+                case 0:
+
+                    System.out.print("\nSaindo...");
+                    break;
+                default:
+                    
+                    System.out.print("\n\nErro de input não reconhecido. tenha certeza que está digitando as opções fornecidas.");
+            }
+
+            if(option == 0) {
+                break;
+            }
+
+            showMenu();
+        }
+
     }
 
     @Override
     public void menu(Scanner scanner) {
+
         showMenu();
         choiceMenu(scanner);
     }

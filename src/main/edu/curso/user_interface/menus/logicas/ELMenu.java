@@ -45,7 +45,7 @@ public class ELMenu implements MenuInterface{
                     break;
                 case 0:
 
-                    System.out.println("\nSaindo...");
+                    System.out.print("\nSaindo...");
                     break;
                 default:
                 
