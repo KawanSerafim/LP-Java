@@ -2,11 +2,11 @@ package main.edu.curso.user_interface.menus.logicas;
 
 import main.edu.curso.user_interface.menus.MenuInterface;
 import main.edu.curso.user_interface.menus.BuildMenu;
-import main.edu.curso.user_interface.view.sequencial.VisaoExercicio01;
-import main.edu.curso.user_interface.view.sequencial.VisaoExercicio02;
-import main.edu.curso.user_interface.view.sequencial.VisaoExercicio03;
-import main.edu.curso.user_interface.view.sequencial.VisaoExercicio04;
-import main.edu.curso.user_interface.view.sequencial.VisaoExercicio05;
+import main.edu.curso.user_interface.view.sequencial.Exercicio01View;
+import main.edu.curso.user_interface.view.sequencial.Exercicio02View;
+import main.edu.curso.user_interface.view.sequencial.Exercicio03View;
+import main.edu.curso.user_interface.view.sequencial.Exercicio04View;
+import main.edu.curso.user_interface.view.sequencial.Exercicio05View;
 import main.edu.curso.user_interface.view.sequencial.VisaoExercicio06;
 import main.edu.curso.user_interface.view.sequencial.VisaoExercicio07;
 import main.edu.curso.user_interface.view.sequencial.VisaoExercicio08;
@@ -63,28 +63,28 @@ public class SequencialMenu implements MenuInterface {
             
                 case 1:
 
-                    VisaoExercicio01 vEx01 = new VisaoExercicio01();
-                    vEx01.visao(scanner);
+                    Exercicio01View exercicio01View = new Exercicio01View();
+                    exercicio01View.view(scanner);
                     break;
                 case 2:
 
-                    VisaoExercicio02 vEx02 = new VisaoExercicio02();
-                    vEx02.visao(scanner);
+                    Exercicio02View exercicio02View = new Exercicio02View();
+                    exercicio02View.view(scanner);
                     break;
                 case 3:
 
-                    VisaoExercicio03 vEx03 = new VisaoExercicio03();
-                    vEx03.visao(scanner);
+                    Exercicio03View exercicio03View = new Exercicio03View();
+                    exercicio03View.view(scanner);
                     break;
                 case 4:
 
-                    VisaoExercicio04 vEx04 = new VisaoExercicio04();
-                    vEx04.visao(scanner);
+                    Exercicio04View exercicio04View = new Exercicio04View();
+                    exercicio04View.view(scanner);
                     break;
                 case 5:
 
-                    VisaoExercicio05 vEx05 = new VisaoExercicio05();
-                    vEx05.visao(scanner);
+                    Exercicio05View exercicio05View = new Exercicio05View();
+                    exercicio05View.view(scanner);
                     break;
                 case 6:
 

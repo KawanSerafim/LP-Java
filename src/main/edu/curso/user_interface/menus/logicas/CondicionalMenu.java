@@ -10,7 +10,7 @@ public class CondicionalMenu implements MenuInterface{
     public void showMenu() {
         
         String[] options = {
-            "Exercício 18.",
+            "Exercício 18."
         };
 
         BuildMenu buildMenu = new BuildMenu("MENU CONDICIONAL", options);

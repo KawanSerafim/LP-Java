@@ -18,6 +18,7 @@ public class BuildMenu {
         builder.append("\n\n[" + title + "]\n\n");
 
         for(int i = 0; i < options.length; i++) {
+
             builder.append((i+1) + ": " + options[i] + "\n");
         }
 
@@ -31,6 +32,6 @@ public class BuildMenu {
 
     public String displayMenu() {
         
-        return buildMenu().toString();
+        return buildMenu();
     }
 }
