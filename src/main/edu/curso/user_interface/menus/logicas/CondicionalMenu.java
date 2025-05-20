@@ -6,17 +6,17 @@ import java.util.Scanner;
 public class CondicionalMenu implements MenuInterface{
 
     @Override
+    public void showMenu() {
+        
+    }
+
+    @Override
     public void choiceMenu(Scanner scanner) {
         
     }
 
     @Override
     public void menu(Scanner scanner) {
-        
-    }
-
-    @Override
-    public void showMenu() {
         
     }
 }

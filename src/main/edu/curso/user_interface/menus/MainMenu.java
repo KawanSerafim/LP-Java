@@ -1,6 +1,6 @@
 package main.edu.curso.user_interface.menus;
 
-import main.edu.curso.user_interface.menus.logicas.MenuEL;
+import main.edu.curso.user_interface.menus.logicas.ELMenu;
 import main.edu.curso.user_interface.menus.dados.MenuED;
 import java.util.Scanner;
 
@@ -30,7 +30,7 @@ public class MainMenu implements MenuInterface {
 
                 case 1:
 
-                    MenuEL menuEL = new MenuEL();
+                    ELMenu menuEL = new ELMenu();
                     menuEL.menu(scanner);
                     break;
                 case 2:

@@ -4,7 +4,7 @@ import main.edu.curso.user_interface.menus.MenuInterface;
 import main.edu.curso.user_interface.menus.BuildMenu;
 import java.util.Scanner;
 
-public class MenuEL implements MenuInterface{
+public class ELMenu implements MenuInterface{
 
     @Override
     public void showMenu() {
