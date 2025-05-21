@@ -16,6 +16,7 @@
 | Descrição | Classe |
 | -------- | ----------- |
 | [📚] Receba 2 valores inteiros. Calcule e mostre o resultado da diferença do maior pelo menor valor. | [☕] [Exercicio18.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/core/estruturas/logicas/condicional/Exercicio18.java) |
+| [📚] Receba 2 valores reais. Mostre o maior deles. | [☕] [Exercicio19.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/core/estruturas/logicas/condicional/Exercicio19.java) |
 
 ---
 
