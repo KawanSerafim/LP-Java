@@ -1,6 +1,6 @@
 package main.edu.curso.core.estruturas.logicas.condicional;
 
-public class Exercicio18 {
+public class Exercicio01 {
     
     public int resolve(int value1, int value2) {
 

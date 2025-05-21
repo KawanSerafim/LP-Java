@@ -1,6 +1,6 @@
 package main.edu.curso.core.estruturas.logicas.condicional;
 
-public class Exercicio19 {
+public class Exercicio02 {
     
     public float resolve(float value1, float value2) {
 

@@ -2,16 +2,16 @@ package main.edu.curso.user_interface.view.condicional;
 
 import main.edu.curso.user_interface.view.ViewInterface;
 import main.edu.curso.user_interface.view.BuildView;
-import main.edu.curso.core.estruturas.logicas.condicional.Exercicio19;
+import main.edu.curso.core.estruturas.logicas.condicional.Exercicio02;
 import java.util.Scanner;
 
-public class Exercicio19View implements ViewInterface {
+public class Exercicio02View implements ViewInterface {
 
     @Override
     public String showContext() {
         
         BuildView buildView = new BuildView(
-            "EXERCÍCIO 19",
+            "EXERCÍCIO 02",
             "Receba 2 valores reais. Mostre o maior deles.",
             "Digite e envie o primeiro valor, depois o segundo: \n"
         );
@@ -24,10 +24,10 @@ public class Exercicio19View implements ViewInterface {
         
         float value1 = scanner.nextFloat();
         float value2 = scanner.nextFloat();
-        Exercicio19 exercicio19 = new Exercicio19();
+        Exercicio02 exercicio02 = new Exercicio02();
 
         return "\n-------------------\n\n" +
-            "Resultado: [ " + exercicio19.resolve(value1, value2) + " ]";
+            "Resultado: [ " + exercicio02.resolve(value1, value2) + " ]";
     }
 
     @Override

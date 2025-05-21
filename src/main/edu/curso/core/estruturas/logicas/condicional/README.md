@@ -15,8 +15,9 @@
 
 | Descrição | Classe |
 | -------- | ----------- |
-| [📚] Receba 2 valores inteiros. Calcule e mostre o resultado da diferença do maior pelo menor valor. | [☕] [Exercicio18.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/core/estruturas/logicas/condicional/Exercicio18.java) |
-| [📚] Receba 2 valores reais. Mostre o maior deles. | [☕] [Exercicio19.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/core/estruturas/logicas/condicional/Exercicio19.java) |
+| [📚] Receba 2 valores inteiros. Calcule e mostre o resultado da diferença do maior pelo menor valor. | [☕] [Exercicio01.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/core/estruturas/logicas/condicional/Exercicio01.java) |
+| [📚] Receba 2 valores reais. Mostre o maior deles. | [☕] [Exercicio02.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/core/estruturas/logicas/condicional/Exercicio02.java) |
+| [📚] Receba 3 coeficientes A, B, e C de uma equação do 2º grau. Verifique e mostre a existência de raízes reais. Caso exista, calcule e mostre as raízes. | [☕] [Exercicio03.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/core/estruturas/logicas/condicional/Exercicio03.java) |
 
 ---
 

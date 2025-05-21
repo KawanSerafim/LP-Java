@@ -2,8 +2,9 @@ package main.edu.curso.user_interface.menus.logicas;
 
 import main.edu.curso.user_interface.menus.MenuInterface;
 import main.edu.curso.user_interface.menus.BuildMenu;
-import main.edu.curso.user_interface.view.condicional.Exercicio18View;
-import main.edu.curso.user_interface.view.condicional.Exercicio19View;
+import main.edu.curso.user_interface.view.condicional.Exercicio01View;
+import main.edu.curso.user_interface.view.condicional.Exercicio02View;
+import main.edu.curso.user_interface.view.condicional.Exercicio03View;
 import java.util.Scanner;
 
 public class CondicionalMenu implements MenuInterface{
@@ -12,8 +13,9 @@ public class CondicionalMenu implements MenuInterface{
     public void showMenu() {
         
         String[] options = {
-            "Exercício 18.",
-            "Exercício 19."
+            "Exercício 1.",
+            "Exercício 2.",
+            "Exercício 3."
         };
 
         BuildMenu buildMenu = new BuildMenu("MENU CONDICIONAL", options);
@@ -33,13 +35,18 @@ public class CondicionalMenu implements MenuInterface{
 
                 case 1:
 
-                    Exercicio18View exercicio18View = new Exercicio18View();
-                    exercicio18View.view(scanner);
+                    Exercicio01View exercicio01View = new Exercicio01View();
+                    exercicio01View.view(scanner);
                     break;
                 case 2:
 
-                    Exercicio19View exercicio19View = new Exercicio19View();
-                    exercicio19View.view(scanner);
+                    Exercicio02View exercicio02View = new Exercicio02View();
+                    exercicio02View.view(scanner);
+                    break;
+                case 3:
+
+                    Exercicio03View exercicio03View = new Exercicio03View();
+                    exercicio03View.view(scanner);
                     break;
                 case 0:
 

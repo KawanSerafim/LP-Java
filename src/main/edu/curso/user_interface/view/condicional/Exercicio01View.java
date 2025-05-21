@@ -2,16 +2,16 @@ package main.edu.curso.user_interface.view.condicional;
 
 import main.edu.curso.user_interface.view.ViewInterface;
 import main.edu.curso.user_interface.view.BuildView;
-import main.edu.curso.core.estruturas.logicas.condicional.Exercicio18;
+import main.edu.curso.core.estruturas.logicas.condicional.Exercicio01;
 import java.util.Scanner;
 
-public class Exercicio18View implements ViewInterface {
+public class Exercicio01View implements ViewInterface {
 
     @Override
     public String showContext() {
         
         BuildView buildView = new BuildView(
-            "EXERCÍCIO 18",
+            "EXERCÍCIO 01",
             "Receba 2 valores inteiros. Calcule e mostre o resultado da diferença do maior pelo menor valor.",
             "Digite e envie o primeiro valor, depois o segundo: \n"
         );
@@ -24,10 +24,10 @@ public class Exercicio18View implements ViewInterface {
         
         int value1 = scanner.nextInt();
         int value2 = scanner.nextInt();
-        Exercicio18 exercicio18 = new Exercicio18();
+        Exercicio01 exercicio01 = new Exercicio01();
 
         return "\n-------------------\n\n" +
-            "Resultado: [ " + exercicio18.resolve(value1, value2) + " ]";
+            "Resultado: [ " + exercicio01.resolve(value1, value2) + " ]";
     }
 
     @Override
