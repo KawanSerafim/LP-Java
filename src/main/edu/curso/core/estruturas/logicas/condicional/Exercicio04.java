@@ -14,6 +14,6 @@ public class Exercicio04 {
             return "Média: " + avarege + " | Situação: Em exame.";
         }
 
-        return "Média: " + avarege + " | Situação: Aprovado";
+        return "Média: " + avarege + " | Situação: Aprovado.";
     }
 }
