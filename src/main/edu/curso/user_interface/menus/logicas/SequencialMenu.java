@@ -7,18 +7,18 @@ import main.edu.curso.user_interface.view.sequencial.Exercicio02View;
 import main.edu.curso.user_interface.view.sequencial.Exercicio03View;
 import main.edu.curso.user_interface.view.sequencial.Exercicio04View;
 import main.edu.curso.user_interface.view.sequencial.Exercicio05View;
-import main.edu.curso.user_interface.view.sequencial.VisaoExercicio06;
-import main.edu.curso.user_interface.view.sequencial.VisaoExercicio07;
-import main.edu.curso.user_interface.view.sequencial.VisaoExercicio08;
-import main.edu.curso.user_interface.view.sequencial.VisaoExercicio09;
-import main.edu.curso.user_interface.view.sequencial.VisaoExercicio10;
-import main.edu.curso.user_interface.view.sequencial.VisaoExercicio11;
-import main.edu.curso.user_interface.view.sequencial.VisaoExercicio12;
-import main.edu.curso.user_interface.view.sequencial.VisaoExercicio13;
-import main.edu.curso.user_interface.view.sequencial.VisaoExercicio14;
-import main.edu.curso.user_interface.view.sequencial.VisaoExercicio15;
-import main.edu.curso.user_interface.view.sequencial.VisaoExercicio16;
-import main.edu.curso.user_interface.view.sequencial.VisaoExercicio17;
+import main.edu.curso.user_interface.view.sequencial.Exercicio06View;
+import main.edu.curso.user_interface.view.sequencial.Exercicio07View;
+import main.edu.curso.user_interface.view.sequencial.Exercicio08View;
+import main.edu.curso.user_interface.view.sequencial.Exercicio09View;
+import main.edu.curso.user_interface.view.sequencial.Exercicio10View;
+import main.edu.curso.user_interface.view.sequencial.Exercicio11View;
+import main.edu.curso.user_interface.view.sequencial.Exercicio12View;
+import main.edu.curso.user_interface.view.sequencial.Exercicio13View;
+import main.edu.curso.user_interface.view.sequencial.Exercicio14View;
+import main.edu.curso.user_interface.view.sequencial.Exercicio15View;
+import main.edu.curso.user_interface.view.sequencial.Exercicio16View;
+import main.edu.curso.user_interface.view.sequencial.Exercicio17View;
 import java.util.Scanner;
 
 public class SequencialMenu implements MenuInterface {
@@ -88,63 +88,63 @@ public class SequencialMenu implements MenuInterface {
                     break;
                 case 6:
 
-                    VisaoExercicio06 vEx06 = new VisaoExercicio06();
-                    vEx06.visao(scanner);
+                    Exercicio06View exercicio06View = new Exercicio06View();
+                    exercicio06View.view(scanner);
                     break;
                 case 7:
 
-                    VisaoExercicio07 vEx07 = new VisaoExercicio07();
-                    vEx07.visao(scanner);
+                    Exercicio07View exercicio07View = new Exercicio07View();
+                    exercicio07View.view(scanner);
                     break;
                 case 8:
 
-                    VisaoExercicio08 vEx08 = new VisaoExercicio08();
-                    vEx08.visao(scanner);
+                    Exercicio08View exercicio08View = new Exercicio08View();
+                    exercicio08View.view(scanner);
                     break;
                 case 9:
 
-                    VisaoExercicio09 vEx09 = new VisaoExercicio09();
-                    vEx09.visao(scanner);
+                    Exercicio09View exercicio09View = new Exercicio09View();
+                    exercicio09View.view(scanner);
                     break;
                 case 10:
 
-                    VisaoExercicio10 vEx10 = new VisaoExercicio10();
-                    vEx10.visao(scanner);
+                    Exercicio10View exercicio10View = new Exercicio10View();
+                    exercicio10View.view(scanner);
                     break;
                 case 11:
 
-                    VisaoExercicio11 vEx11 = new VisaoExercicio11();
-                    vEx11.visao(scanner);
+                    Exercicio11View exercicio11View = new Exercicio11View();
+                    exercicio11View.view(scanner);
                     break;
                 case 12:
                 
-                    VisaoExercicio12 vEx12 = new VisaoExercicio12();
-                    vEx12.visao(scanner);
+                    Exercicio12View exercicio12View = new Exercicio12View();
+                    exercicio12View.view(scanner);
                     break;
                 case 13:
 
-                    VisaoExercicio13 vEx13 = new VisaoExercicio13();
-                    vEx13.visao(scanner);
+                    Exercicio13View exercicio13View = new Exercicio13View();
+                    exercicio13View.view(scanner);
                     break;
                 case 14:
 
-                    VisaoExercicio14 vEx14 = new VisaoExercicio14();
-                    vEx14.visao(scanner);
+                    Exercicio14View exercicio14View = new Exercicio14View();
+                    exercicio14View.view(scanner);
                     break;
                 case 15:
 
-                    VisaoExercicio15 vEx15 = new VisaoExercicio15();
-                    vEx15.visao(scanner);
+                    Exercicio15View exercicio15View = new Exercicio15View();
+                    exercicio15View.view(scanner);
                     break;
                 case 16:
 
-                    VisaoExercicio16 vEx16 = new VisaoExercicio16();
-                    vEx16.visao(scanner); 
+                    Exercicio16View exercicio16View = new Exercicio16View();
+                    exercicio16View.view(scanner);
                     break;
                 case 17:
 
-                    VisaoExercicio17 vEx17 = new VisaoExercicio17();
-                    vEx17.visao(scanner);
+                    Exercicio17View exercicio17View = new Exercicio17View();
+                    exercicio17View.view(scanner);
                     break;
                 case 0:
 

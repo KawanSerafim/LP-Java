@@ -12,7 +12,7 @@ public class Exercicio01View implements ViewInterface {
         BuildView buildView = new BuildView(
             "EXERCÍCIO 1", 
             "Coletar o valor do lado de um quadrado, calcular sua área e apresentar o resultado.",
-            "Digite o valor do lado: "
+            "Digite e envie o valor do lado: "
         );
 
         return buildView.displayView();
@@ -24,7 +24,7 @@ public class Exercicio01View implements ViewInterface {
         Exercicio01 exercicio01 = new Exercicio01();
 
         return "\n-------------------\n\n" +
-            "Resultado: [ " + exercicio01.resolucao(side) + "m² ]";
+            "Resultado: [ " + exercicio01.resolve(side) + "m² ]";
     }
     
     public void view(Scanner scanner) {

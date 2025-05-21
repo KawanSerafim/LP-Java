@@ -13,7 +13,7 @@ public class Exercicio04View implements ViewInterface {
         BuildView buildView = new BuildView(
             "EXERCÍCIO 04",
             "Receba a temperatura em graus Celsius. Calcule e mostre a sua temperatura convertida em fahrenheit F = (9*C+160)/5.",
-            "Digite a temperatura em Celcius: "
+            "Digite e envie a temperatura em Celcius: "
         );
 
         return buildView.displayView();
@@ -26,7 +26,7 @@ public class Exercicio04View implements ViewInterface {
         Exercicio04 exercicio04 = new Exercicio04();
 
         return "\n-------------------\n\n" +
-            "Resultado: [ " + exercicio04.resolucao(degressCelcius) + "°F ]";
+            "Resultado: [ " + exercicio04.resolve(degressCelcius) + "°F ]";
     }
 
     @Override

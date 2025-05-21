@@ -2,18 +2,18 @@ package main.edu.curso.user_interface.view.sequencial;
 
 import main.edu.curso.user_interface.view.ViewInterface;
 import main.edu.curso.user_interface.view.BuildView;
-import main.edu.curso.core.estruturas.logicas.sequencial.Exercicio03;
+import main.edu.curso.core.estruturas.logicas.sequencial.Exercicio08;
 import java.util.Scanner;
 
-public class Exercicio03View implements ViewInterface {
+public class Exercicio08View implements ViewInterface {
 
     @Override
     public String showContext() {
         
         BuildView buildView = new BuildView(
-            "EXERCÍCIO",
-            "Receba a base e a altura de um triângulo. Calcule e mostre a sua área.",
-            "Digite e envie a base, depois a altura:\n"
+            "EXERCÍCIO 08",
+            "Receba o valor de um depósito em poupança. Calcule e mostre o valor após 1 mês de aplicação sabendo que rende 1,3% a. m.",
+            "Digite e envie o valor do depósito: "
         );
 
         return buildView.displayView();
@@ -22,12 +22,11 @@ public class Exercicio03View implements ViewInterface {
     @Override
     public String showResult(Scanner scanner) {
         
-        float base = scanner.nextFloat();
-        float height = scanner.nextFloat();
-        Exercicio03 exercicio03 = new Exercicio03();
+        float deposit = scanner.nextFloat();
+        Exercicio08 exercicio08 = new Exercicio08();
 
         return "\n-------------------\n\n" +
-            "Resultado: [ " + exercicio03.resolve(base, height) + "m² ]";
+            "Resultado: [ R$" + exercicio08.resolve(deposit) + " ]";
     }
 
     @Override

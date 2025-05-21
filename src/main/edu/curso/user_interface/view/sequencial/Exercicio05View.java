@@ -13,7 +13,7 @@ public class Exercicio05View implements ViewInterface {
         BuildView buildView = new BuildView(
             "EXERCÍCIO 05",
             "Receba os coeficientes A, B e C de uma equação do 2º grau. Calcule e mostre as raízes reais (considerar que a equação possue 2 raízes).",
-            "Digite os coeficientes A, B e C: \n"
+            "Digite e envie o coeficiente A, depois o B, e por fim o C: \n"
         );
         
         return buildView.displayView();
@@ -28,7 +28,7 @@ public class Exercicio05View implements ViewInterface {
         Exercicio05 exercicio05 = new Exercicio05();
 
         return "\n-------------------\n\n" +
-            "Resultado: [ " + exercicio05.resolucao(coefficientA, coefficientB, coefficientC) + " ]";
+            "Resultado: [ " + exercicio05.resolve(coefficientA, coefficientB, coefficientC) + " ]";
     }
 
     @Override

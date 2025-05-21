@@ -13,7 +13,7 @@ public class Exercicio02View implements ViewInterface {
         BuildView buildView = new BuildView(
             "EXERCÍCIO 02", 
             "Receba o salário de um funcionário e mostre o novo salário com reajuste de 15%.",
-            "Digite o salário: "
+            "Digite e envie o salário: "
         );
 
         return buildView.displayView();
@@ -26,7 +26,7 @@ public class Exercicio02View implements ViewInterface {
         Exercicio02 exercicio02 = new Exercicio02();
 
         return "\n-------------------\n\n" +
-            "Resultado: [ R$" + exercicio02.resolucao(wage) + " ]";
+            "Resultado: [ R$" + exercicio02.resolve(wage) + " ]";
     }
 
     @Override
