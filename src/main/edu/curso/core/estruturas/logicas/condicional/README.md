@@ -5,7 +5,7 @@
 
 ---
 
-*A estrutura condicional introduz uma lógica mais complexa. Diferente da estrutura sequencial, ela permite que a aplicação siga caminhos distintos com base em valores específicos, ao invés de executar os comandos em uma ordem linear pré-definida. Apesar disso, o código permanecerá sem estar modularizado.*
+*A estrutura condicional introduz uma lógica mais complexa. Diferente da estrutura sequencial, ela permite que a aplicação siga caminhos distintos com base em valores específicos, ao invés de executar os comandos em uma ordem linear pré-definida. Apesar disso, o código permanecerá sem loops e sem estar modularizado.*
 
 ---
 
