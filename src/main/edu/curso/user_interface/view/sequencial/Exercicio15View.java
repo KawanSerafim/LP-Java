@@ -9,19 +9,31 @@ public class Exercicio15View implements ViewInterface {
 
     @Override
     public String showContext() {
-        // TODO Auto-generated method stub
-        return null;
+        
+        BuildView buildView = new BuildView(
+            "EXERCÍCIO 15",
+            "Receba os valores de 2 catetos de um triângulo retângulo. Calcule e mostre a hipotenusa.",
+            "Digite e envie o primeiro cateto, depois o segundo: \n"
+        );
+
+        return buildView.displayView();
     }
 
     @Override
     public String showResult(Scanner scanner) {
-        // TODO Auto-generated method stub
-        return null;
+        
+        float cathet1 = scanner.nextFloat();
+        float cathet2 = scanner.nextFloat();
+        Exercicio15 exercicio15 = new Exercicio15();
+
+        return "\n-------------------\n\n" +
+            "Resultado: [ " + exercicio15.resolve(cathet1, cathet2) + " ]";
     }
 
     @Override
     public void view(Scanner scanner) {
-        // TODO Auto-generated method stub
         
+        System.out.print(showContext());
+        System.out.print(showResult(scanner));
     }
 }

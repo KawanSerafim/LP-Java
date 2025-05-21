@@ -9,19 +9,30 @@ public class Exercicio11View implements ViewInterface {
 
     @Override
     public String showContext() {
-        // TODO Auto-generated method stub
-        return null;
+        
+        BuildView buildView = new BuildView(
+            "EXERCÍCIO 11",
+            "Receba o raio de uma circunferência. Calcule e mostre o comprimento da circunferência.",
+            "Digite e envie o raio: "
+        );
+
+        return buildView.displayView();
     }
 
     @Override
     public String showResult(Scanner scanner) {
-        // TODO Auto-generated method stub
-        return null;
+        
+        float radius = scanner.nextFloat();
+        Exercicio11 exercicio11 = new Exercicio11();
+
+        return "\n-------------------\n\n" +
+            "Resultado: [ " + exercicio11.resolve(radius) + " ]";
     }
 
     @Override
     public void view(Scanner scanner) {
-        // TODO Auto-generated method stub
         
+        System.out.print(showContext());
+        System.out.print(showResult(scanner));
     }
 }

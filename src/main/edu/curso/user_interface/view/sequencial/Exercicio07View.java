@@ -24,11 +24,11 @@ public class Exercicio07View implements ViewInterface {
         
         float lenght = scanner.nextFloat();
         float width = scanner.nextFloat();
-        float heigth = scanner.nextFloat();
+        float height = scanner.nextFloat();
         Exercicio07 exercicio07 = new Exercicio07();
 
         return "\n-------------------\n\n" +
-            "Resultado: [ " + exercicio07.resolve(lenght, width, heigth) + "m³ ]";
+            "Resultado: [ " + exercicio07.resolve(lenght, width, height) + "m³ ]";
     }
 
     @Override

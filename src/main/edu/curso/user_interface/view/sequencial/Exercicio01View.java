@@ -7,6 +7,7 @@ import java.util.Scanner;
 
 public class Exercicio01View implements ViewInterface {
     
+    @Override
     public String showContext() {
 
         BuildView buildView = new BuildView(
@@ -18,6 +19,7 @@ public class Exercicio01View implements ViewInterface {
         return buildView.displayView();
     }
 
+    @Override
     public String showResult(Scanner scanner) {
 
         float side = scanner.nextFloat();
@@ -27,6 +29,7 @@ public class Exercicio01View implements ViewInterface {
             "Resultado: [ " + exercicio01.resolve(side) + "m² ]";
     }
     
+    @Override
     public void view(Scanner scanner) {
         
         System.out.print(showContext());

@@ -1,8 +1,11 @@
 package main.edu.curso.core.estruturas.logicas.sequencial;
 
 public class Exercicio12 {
-    public String resolve(int anoNasc, int anoAtual) {
-        int idade = anoAtual - anoNasc;
-        return "Idade: " + idade + " anos | Daqui 17 anos: " + (idade + 17) + " anos";
+    
+    public String resolve(int birthYear, int nowYear) {
+
+        int age = nowYear - birthYear;
+        
+        return "Idade: " + age + " anos | Daqui 17 anos: " + (age + 17) + " anos";
     }   
 }
