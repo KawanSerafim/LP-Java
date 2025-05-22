@@ -1,7 +1,7 @@
 package main.edu.curso.user_interface.view.condicional;
 
-import main.edu.curso.user_interface.view.BuildView;
 import main.edu.curso.user_interface.view.ViewInterface;
+import main.edu.curso.user_interface.view.BuildView;
 import main.edu.curso.core.estruturas.logicas.condicional.Exercicio04;
 import java.util.Scanner;
 

@@ -6,6 +6,7 @@ import main.edu.curso.user_interface.view.condicional.Exercicio01View;
 import main.edu.curso.user_interface.view.condicional.Exercicio02View;
 import main.edu.curso.user_interface.view.condicional.Exercicio03View;
 import main.edu.curso.user_interface.view.condicional.Exercicio04View;
+import main.edu.curso.user_interface.view.condicional.Exercicio05View;
 import java.util.Scanner;
 
 public class CondicionalMenu implements MenuInterface{
@@ -17,7 +18,8 @@ public class CondicionalMenu implements MenuInterface{
             "Exercício 1.",
             "Exercício 2.",
             "Exercício 3.",
-            "Exercício 4."
+            "Exercício 4.",
+            "Exercício 5."
         };
 
         BuildMenu buildMenu = new BuildMenu("MENU CONDICIONAL", options);
@@ -55,6 +57,12 @@ public class CondicionalMenu implements MenuInterface{
 
                     Exercicio04View exercicio04View = new Exercicio04View();
                     exercicio04View.view(scanner);
+                    break;
+
+                case 5:
+
+                    Exercicio05View exercicio05View = new Exercicio05View();
+                    exercicio05View.view(scanner);
                     break;
                 case 0:
 
