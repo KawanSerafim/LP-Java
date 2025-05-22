@@ -5,6 +5,7 @@ public class Exercicio02 {
     public float resolve(float value1, float value2) {
 
         if(value2 > value1) {
+            
             return value2;
         }
 

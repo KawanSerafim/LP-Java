@@ -7,10 +7,12 @@ public class Exercicio04 {
         float avarege = ((grade1 + grade2 + grade3 + grade4) / 4);
 
         if(avarege < 3) {
+
             return "Média: " + avarege + " | Situação: Retido.";
         }
 
         if(avarege >= 3 && avarege < 6) {
+            
             return "Média: " + avarege + " | Situação: Em exame.";
         }
 

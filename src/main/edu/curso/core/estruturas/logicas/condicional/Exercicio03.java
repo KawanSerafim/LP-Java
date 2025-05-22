@@ -7,6 +7,7 @@ public class Exercicio03 {
         double delta = ((Math.pow(coefficientB, 2)) - 4 * coefficientA * coefficientC);
 
         if(delta < 0) {
+            
             return "Não há raízes reais.";
         }
         
