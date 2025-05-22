@@ -20,6 +20,7 @@
 | [📚] Receba 3 coeficientes A, B, e C de uma equação do 2º grau. Verifique e mostre a existência de raízes reais. Caso exista, calcule e mostre as raízes. | [☕] [Exercicio03.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/core/estruturas/logicas/condicional/Exercicio03.java) |
 | [📚] Receba 4 notas bimestrais de um aluno. Calcule e mostre a média aritmética. `Aprovado` para média >= 6, `Em exame` para média >= 3 e < 6, e `Retido` para média < 3. | [☕] [Exercicio04.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/core/estruturas/logicas/condicional/Exercicio04.java) |
 | [📚] Receba 2 valores inteiros e diferentes. Mostre seus valores em ordem crescente. | [☕] [Exercicio05.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/core/estruturas/logicas/condicional/Exercicio05.java) |
+| [📚] Receba 3 valores obrigatoriamente em ordem crescente e um 4º valor não necessariamente em ordem. Mostre os 4 números em ordem crescente. | [☕] [Exercicio06.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/core/estruturas/logicas/condicional/Exercicio06.java) |
 
 ---
 
