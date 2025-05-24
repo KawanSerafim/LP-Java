@@ -23,6 +23,7 @@
 | [📚] Receba 3 valores obrigatoriamente em ordem crescente e um 4º valor não necessariamente em ordem. Mostre os 4 números em ordem crescente. | [☕] [Exercicio06.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/core/estruturas/logicas/condicional/Exercicio06.java) |
 | [📚] Receba um valor inteiro. Verifique e mostre se é divisível por 2 e 3. | [☕] [Exercicio07.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/core/estruturas/logicas/condicional/Exercicio07.java) |
 | [📚] Receba a hora de início e de final de um jogo em horas e minutos. Calcule e exiba o tempo do jogo, sabendo que o tempo máximo é menor que 24 horas e pode começar num dia e terminar noutro. | [☕] [Exercicio08.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/core/estruturas/logicas/condicional/Exercicio08.java) |
+| [📚] Receba 2 números inteiros. Verifique e mostre se o maior número é múltiplo do menor. | [☕] [Exercicio09.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/core/estruturas/logicas/condicional/Exercicio09.java) |
 
 ---
 
