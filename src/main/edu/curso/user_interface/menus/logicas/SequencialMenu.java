@@ -156,6 +156,7 @@ public class SequencialMenu implements MenuInterface {
             }
 
             if(option == 0) {
+                
                 break;
             }
 

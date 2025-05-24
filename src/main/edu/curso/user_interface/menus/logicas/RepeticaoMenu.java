@@ -2,28 +2,27 @@ package main.edu.curso.user_interface.menus.logicas;
 
 import main.edu.curso.user_interface.menus.MenuInterface;
 import main.edu.curso.user_interface.menus.BuildMenu;
+import main.edu.curso.user_interface.view.repeticao.Exercicio01View;
 import java.util.Scanner;
 
-public class ELMenu implements MenuInterface{
+public class RepeticaoMenu implements MenuInterface {
 
     @Override
     public void showMenu() {
-
+        
         String[] options = {
-            "Estrutura Sequencial.",
-            "Estrutura Condicional.",
-            "Estrutura de Repetição."
+            "Exercício 1."
         };
 
-        BuildMenu buildMenu = new BuildMenu("ESTRUTURAS LÓGICAS", options);
-        System.out.print(buildMenu.displayMenu());        
+        BuildMenu buildMenu = new BuildMenu("MENU DE REPETIÇÃO", options);
+        System.out.print(buildMenu.displayMenu());
     }
 
     @Override
     public void choiceMenu(Scanner scanner) {
         
         int option;
-
+        
         while(true) {
 
             option = scanner.nextInt();
@@ -32,33 +31,23 @@ public class ELMenu implements MenuInterface{
 
                 case 1:
 
-                    SequencialMenu menuSequencial = new SequencialMenu();
-                    menuSequencial.menu(scanner);
-                    break;
-                case 2:
-
-                    CondicionalMenu condicionalMenu = new CondicionalMenu();
-                    condicionalMenu.menu(scanner);
-                    break;
-                case 3:
-
-                    RepeticaoMenu repeticaoMenu = new RepeticaoMenu();
-                    repeticaoMenu.menu(scanner);
+                    Exercicio01View exercicio01View = new Exercicio01View();
+                    exercicio01View.view(scanner);
                     break;
                 case 0:
 
                     System.out.print("\nSaindo...");
                     break;
                 default:
-                
+
                     System.out.print("\n\nErro de input não reconhecido. tenha certeza que está digitando as opções fornecidas.");
             }
 
             if(option == 0) {
-                
+
                 break;
             }
-            
+
             showMenu();
         }
     }
