@@ -4,6 +4,10 @@ public class Exercicio08 {
     
     public String resolve(int startHour, int startMinute, int finalHour, int finalMinute) {
 
+        if(startHour == finalHour && startMinute == finalMinute) {
+            
+            return "Erro! O limite de tempo foi ultrapassado.";
+        }
 
         if(startMinute > 59 || finalMinute > 59) {
 
