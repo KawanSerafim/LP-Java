@@ -24,6 +24,7 @@
 | [📚] Receba um valor inteiro. Verifique e mostre se é divisível por 2 e 3. | [☕] [Exercicio07.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/core/estruturas/logicas/condicional/Exercicio07.java) |
 | [📚] Receba a hora de início e de final de um jogo em horas e minutos. Calcule e exiba o tempo do jogo, sabendo que o tempo máximo é menor que 24 horas e pode começar num dia e terminar noutro. | [☕] [Exercicio08.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/core/estruturas/logicas/condicional/Exercicio08.java) |
 | [📚] Receba 2 números inteiros. Verifique e mostre se o maior número é múltiplo do menor. | [☕] [Exercicio09.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/core/estruturas/logicas/condicional/Exercicio09.java) |
+| [📚] Receba o preço atual e a média mensal de um produto. Calcule e exiba um preço novo, de acordo com as seguintes regras: se a venda mensal for menor que 500, com o preço sendo menor que 30, o novo preço será um acréscimo de 10%; se a venda mensal for maior igual a 500, com o preço sendo maior igual a 30 ou menor que 80, o novo preço será um acréscimo de 15%; se a venda mensal for maior igual a 1000, com o preço sendo maior igual a 80, o novo preço será um decréscimo de 5%. Caso não entre nessas condições, o preço permanecerá igual. | [☕] [Exercicio10.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/core/estruturas/logicas/condicional/Exercicio10.java) |
 
 ---
 
