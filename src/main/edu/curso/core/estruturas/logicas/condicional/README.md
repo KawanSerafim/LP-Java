@@ -11,7 +11,7 @@
 
 ## 📝 Exercícios
 
-*Nesta seção estarão os links que direcionam para as classes de cada exercício. Ao todo, são 12 exercícios, e cada link será acompanhado de uma breve descrição do contexto, com o objetivo de esclarecer a finalidade do código.*
+*Nesta seção estarão os links que direcionam para as classes de cada exercício. Ao todo, são 11 exercícios, e cada link será acompanhado de uma breve descrição do contexto, com o objetivo de esclarecer a finalidade do código.*
 
 | Descrição | Classe |
 | -------- | ----------- |
