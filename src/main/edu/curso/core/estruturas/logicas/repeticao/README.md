@@ -17,6 +17,7 @@
 | -------- | ----------- |
 | [📚] Calcule e mostre o quadrado dos números entre 10 e 150. | [☕] [Exercicio01.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/core/estruturas/logicas/repeticao/Exercicio01.java) |
 | [📚] Receba um número inteiro. Calcule e mostre o seu fatorial. | [☕] [Exercicio02.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/core/estruturas/logicas/repeticao/Exercicio02.java) |
+| [📚] Receba um número inteiro. Calcule e mostre a série 1 + 1/2 + 1/3 + ... + 1/N. | [☕] [Exercicio03.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/core/estruturas/logicas/repeticao/Exercicio03.java) |
 
 ---
 
