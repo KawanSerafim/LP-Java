@@ -19,6 +19,7 @@
 | [📚] Receba um número inteiro. Calcule e mostre o seu fatorial. | [☕] [Exercicio02.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/core/estruturas/logicas/repeticao/Exercicio02.java) |
 | [📚] Receba um número inteiro. Calcule e mostre a série 1 + 1/2 + 1/3 + ... + 1/N. | [☕] [Exercicio03.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/core/estruturas/logicas/repeticao/Exercicio03.java) |
 | [📚] Receba um número inteiro. Calcule e mostre os resultados da tabuada do 1 ao 10 desse número. | [☕] [Exercicio04.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/core/estruturas/logicas/repeticao/Exercicio04.java) |
+| [📚] Receba 2 números inteiros, verifique qual o maior entre eles. Calcule e mostre o resultado da somatória dos números ímpares entre esses valores. | [☕] [Exercicio05.java](https://github.com/KawanSerafim/LP-Java/blob/main/src/main/edu/curso/core/estruturas/logicas/repeticao/Exercicio05.java) |
 
 ---
 
