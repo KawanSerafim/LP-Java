@@ -5,6 +5,7 @@ import main.edu.curso.user_interface.menus.BuildMenu;
 import main.edu.curso.user_interface.view.repeticao.Exercicio01View;
 import main.edu.curso.user_interface.view.repeticao.Exercicio02View;
 import main.edu.curso.user_interface.view.repeticao.Exercicio03View;
+import main.edu.curso.user_interface.view.repeticao.Exercicio04View;
 import java.util.Scanner;
 
 public class RepeticaoMenu implements MenuInterface {
@@ -15,7 +16,8 @@ public class RepeticaoMenu implements MenuInterface {
         String[] options = {
             "Exercício 1.",
             "Exercício 2.",
-            "Exercício 3."
+            "Exercício 3.",
+            "Exercício 4."
         };
 
         BuildMenu buildMenu = new BuildMenu("MENU DE REPETIÇÃO", options);
@@ -43,11 +45,15 @@ public class RepeticaoMenu implements MenuInterface {
                     Exercicio02View exercicio02View = new Exercicio02View();
                     exercicio02View.view(scanner);
                     break;
-
                 case 3:
 
                     Exercicio03View exercicio03View = new Exercicio03View();
                     exercicio03View.view(scanner);
+                    break;
+                case 4:
+
+                    Exercicio04View exercicio04View = new Exercicio04View();
+                    exercicio04View.view(scanner);
                     break;
                 case 0:
 
