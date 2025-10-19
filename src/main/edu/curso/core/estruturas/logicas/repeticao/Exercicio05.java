@@ -20,6 +20,8 @@ public class Exercicio05 {
                     result += i;
                 }
             }
+            
+            return result + "";
         }
 
         for(int i = (number1 + 1); i < number2; i++) {
